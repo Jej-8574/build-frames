@@ -1,51 +1,48 @@
+.warframes-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 8px 40px;
+}
+
 .warframes-page h2 {
+  margin: 8px 0 18px;
+  color: #fff;
   font-size: 2rem;
-  margin-bottom: 24px;
 }
 
 .warframes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 .warframe-card {
-  display: block;
   text-decoration: none;
-  color: #eaf0ff;
+  color: #fff;
   background: rgba(10, 16, 35, 0.72);
-  border: 1px solid rgba(160, 185, 255, 0.25);
+  border: 1px solid rgba(160, 185, 255, 0.22);
   border-radius: 16px;
-  overflow: hidden;
-  backdrop-filter: blur(6px);
+  padding: 14px;
   transition:
-    transform 0.2s,
-    border-color 0.2s,
-    box-shadow 0.2s;
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  backdrop-filter: blur(4px);
 }
 
 .warframe-card:hover {
-  transform: translateY(-6px);
-  border-color: #3b82f6;
-  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+  transform: translateY(-4px);
+  border-color: rgba(143, 176, 255, 0.8);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
 }
 
-.warframe-card img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  display: block;
-}
-
-.warframe-card h3 {
-  padding: 14px;
-  text-align: center;
-  font-size: 1.2rem;
-}
 .card-img {
   position: relative;
   width: 100%;
-  height: 260px;
+  aspect-ratio: 3 / 4;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
 }
 
 .card-img img {
@@ -54,26 +51,28 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
   transition: opacity 0.35s ease;
 }
 
-/* la prime est cachée par défaut */
+.img-base {
+  opacity: 1;
+}
+
 .img-prime {
   opacity: 0;
 }
 
-/* au survol : on affiche la prime et on masque la base */
-.warframe-card:hover .img-prime {
+.warframe-card.has-prime:hover .img-base {
+  opacity: 0;
+}
+
+.warframe-card.has-prime:hover .img-prime {
   opacity: 1;
 }
 
-/* la base ne disparaît que s'il existe une prime */
-.warframe-card:hover .img-prime ~ .img-base,
-.card-img:has(.img-prime) .img-base {
-  transition: opacity 0.35s ease;
-}
-
-.warframe-card:hover .card-img:has(.img-prime) .img-base {
-  opacity: 0;
+.warframe-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
 }

@@ -4,6 +4,46 @@ export const warframes = [
     name: "Ash",
     image: "/all_img/img_warframe/ash.webp",
     primeImage: "/all_img/img_warframe/ash_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
 
   {
@@ -11,24 +51,193 @@ export const warframes = [
     name: "Atlas",
     image: "/all_img/img_warframe/atlas.webp",
     primeImage: "/all_img/img_warframe/atlas_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
   {
     id: "banshee",
     name: "Banshee",
     image: "/all_img/img_warframe/banshee.webp",
     primeImage: "/all_img/img_warframe/banshee_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
   {
     id: "baruuk",
     name: "Baruuk",
     image: "/all_img/img_warframe/baruuk.webp",
     primeImage: "/all_img/img_warframe/baruuk_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+        weaponBuilds: [
+          {
+            name: "Nom de l'arme",
+            images: {
+              fr: "/all_img/xxx_fr/arme_fr.png",
+              en: "/all_img/xxx_en/arme_en.png",
+            },
+          },
+        ],
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
   {
     id: "caliban",
     name: "Caliban",
     image: "/all_img/img_warframe/caliban.webp",
     primeImage: "/all_img/img_warframe/caliban_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
   {
     id: "chroma",
@@ -196,6 +405,58 @@ export const warframes = [
     name: "Mesa",
     image: "/all_img/img_warframe/mesa.webp",
     primeImage: "/all_img/img_warframe/mesa_prime.webp",
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/caliban_en/caliban_en.png",
+        },
+      },
+    ],
+
+    weaponBuilds: [
+      {
+        name: "Régulator de Mesa",
+        images: {
+          fr: "/all_img/xxx_fr/arme_fr.png",
+          en: "/all_img/mesa_en/mesa_en_weapon.png",
+        },
+      },
+    ],
+
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShardImage: "/all_img/caliban_en/fragment_caliban.png",
+    archonShards: [
+      {
+        color: "red",
+        count: 2,
+        labelFr: "Puissance de pouvoir",
+        labelEn: "Power Strength",
+      },
+      {
+        color: "yellow",
+        count: 3,
+        labelFr: "Vitesse d'incantation",
+        labelEn: "Casting Speed",
+      },
+    ],
   },
   {
     id: "mirage",
@@ -225,12 +486,108 @@ export const warframes = [
     id: "nokko",
     name: "Nokko",
     image: "/all_img/img_warframe/nokko.webp",
+
+    description:
+      "Nokko, Le Roi des champignons pour ma part c'est l'une de mes warframes préférées, très fluide très agréable à jouer et vraiment DEVASTATRICE.",
+    strengths: [
+      "Nuke de zone",
+      "Auto suffisant en énergie",
+      "Buff de groupe",
+      "Support offensif",
+      "Très simple à jouer",
+    ],
+    weaknesses: [
+      "Peut être le fait de spam sort sinon la frame est vraiment ultra complète",
+    ],
+    builds: [
+      {
+        name: "Général",
+        images: {
+          fr: "/all_img/nokko_fr/nokko_fr.png",
+          en: "/all_img/nokko_en/nokko_en.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "En Helminth j'ai choisis de mettre celui d'Oberon qui permet de presque ONE SHOT la cible très utile contre les Thrax en cascade par exemple",
+      en: "Here i chose to use Oberon's Helminth which allows to almost ONE SHOT the target very useful against Thrax in cascade for example",
+    },
+    archonShards: [
+      {
+        color: "yellow",
+        icon: "/all_img/fragment_archon/fragment_jaune.webp",
+        text: {
+          fr: "+37.5% de Vitesse de lancement.",
+          en: "+37.5% Casting Speed.",
+        },
+      },
+      {
+        color: "red",
+        icon: "/all_img/fragment_archon/fragment_rouge.webp",
+        text: {
+          fr: "+15% Durée de pouvoir ",
+          en: "+15% Ability Duration",
+        },
+      },
+      {
+        color: "red",
+        icon: "/all_img/fragment_archon/fragment_rouge.webp",
+        text: {
+          fr: "+15% Durée de pouvoir ",
+          en: "+15% Ability Duration",
+        },
+      },
+      {
+        color: "green",
+        icon: "/all_img/fragment_archon/fragment_vert.webp",
+        text: {
+          fr: "+45% de Dégâts sur les Effets de Statut Poison",
+          en: "+45% Damage on Poison Status Effects",
+        },
+      },
+      {
+        color: "green",
+        icon: "/all_img/fragment_archon/fragment_vert.webp",
+        text: {
+          fr: "+45% de Dégâts sur les Effets de Statut Poison",
+          en: "+45% Damage on Poison Status Effects",
+        },
+      },
+    ],
   },
   {
     id: "nova",
     name: "Nova",
     image: "/all_img/img_warframe/nova.webp",
     primeImage: "/all_img/img_warframe/nova_prime.webp",
+    description: "",
+    strengths: ["", "", ""],
+    weaknesses: [""],
+    builds: [
+      {
+        name: "Double Augment",
+        images: {
+          fr: "/all_img/nova_fr/nova_fr_da.png",
+          en: "/all_img/nova_en/nova_en_da.png",
+        },
+      },
+      {
+        name: "DPS",
+        images: {
+          fr: "/all_img/nova_fr/nova_fr_support.png",
+          en: "/all_img/nova_en/nova_en_support.png",
+        },
+      },
+    ],
+    helminth: {
+      fr: "",
+      en: "",
+    },
+    archonShardImage: "/all_img/ID_en/fragment_ID.png",
+    archonShardsText: {
+      fr: "",
+      en: "",
+    },
   },
   {
     id: "nyx",
