@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const rhino = {
   id: "rhino",
   name: "Rhino",
-  image: "/all_img/img_warframe/rhino.webp",
-  primeImage: "/all_img/img_warframe/rhino_prime.webp",
+  image: "all_img/img_warframe/rhino.webp",
+  primeImage: "all_img/img_warframe/rhino_prime.webp",
   description: "Description Rhino...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const rhino = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/rhino_fr/rhino_fr.png",
-      "/all_img/rhino_en/rhino_en.png",
+      "all_img/rhino_fr/rhino_fr.png",
+      "all_img/rhino_en/rhino_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/rhino_fr/regulators_fr.png",
-      "/all_img/rhino_en/regulators_en.png",
+      "all_img/rhino_fr/regulators_fr.png",
+      "all_img/rhino_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const rhino = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

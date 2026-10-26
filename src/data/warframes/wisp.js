@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const wisp = {
   id: "wisp",
   name: "Wisp",
-  image: "/all_img/img_warframe/wisp.webp",
-  primeImage: "/all_img/img_warframe/wisp_prime.webp",
+  image: "all_img/img_warframe/wisp.webp",
+  primeImage: "all_img/img_warframe/wisp_prime.webp",
   description: "Description Wisp...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const wisp = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/wisp_fr/wisp_fr.png",
-      "/all_img/wisp_en/wisp_en.png",
+      "all_img/wisp_fr/wisp_fr.png",
+      "all_img/wisp_en/wisp_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/wisp_fr/regulators_fr.png",
-      "/all_img/wisp_en/regulators_en.png",
+      "all_img/wisp_fr/regulators_fr.png",
+      "all_img/wisp_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const wisp = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

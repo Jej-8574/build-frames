@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const sevagoth = {
   id: "sevagoth",
   name: "Sevagoth",
-  image: "/all_img/img_warframe/sevagoth.webp",
-  primeImage: "/all_img/img_warframe/sevagoth_prime.webp",
+  image: "all_img/img_warframe/sevagoth.webp",
+  primeImage: "all_img/img_warframe/sevagoth_prime.webp",
   description: "Description Sevagoth...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const sevagoth = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/sevagoth_fr/sevagoth_fr.png",
-      "/all_img/sevagoth_en/sevagoth_en.png",
+      "all_img/sevagoth_fr/sevagoth_fr.png",
+      "all_img/sevagoth_en/sevagoth_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/sevagoth_fr/regulators_fr.png",
-      "/all_img/sevagoth_en/regulators_en.png",
+      "all_img/sevagoth_fr/regulators_fr.png",
+      "all_img/sevagoth_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const sevagoth = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

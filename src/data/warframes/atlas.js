@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const atlas = {
   id: "atlas",
   name: "Atlas",
-  image: "/all_img/img_warframe/atlas.webp",
-  primeImage: "/all_img/img_warframe/atlas_prime.webp",
+  image: "all_img/img_warframe/atlas.webp",
+  primeImage: "all_img/img_warframe/atlas_prime.webp",
   description: "Description Atlas...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const atlas = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/atlas_fr/atlas_fr.png",
-      "/all_img/atlas_en/atlas_en.png",
+      "all_img/atlas_fr/atlas_fr.png",
+      "all_img/atlas_en/atlas_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/atlas_fr/regulators_fr.png",
-      "/all_img/atlas_en/regulators_en.png",
+      "all_img/atlas_fr/regulators_fr.png",
+      "all_img/atlas_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const atlas = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

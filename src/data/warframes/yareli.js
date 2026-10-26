@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const yareli = {
   id: "yareli",
   name: "Yareli",
-  image: "/all_img/img_warframe/yareli.webp",
-  primeImage: "/all_img/img_warframe/yareli_prime.webp",
+  image: "all_img/img_warframe/yareli.webp",
+  primeImage: "all_img/img_warframe/yareli_prime.webp",
   description: "Description Yareli...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const yareli = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/yareli_fr/yareli_fr.png",
-      "/all_img/yareli_en/yareli_en.png",
+      "all_img/yareli_fr/yareli_fr.png",
+      "all_img/yareli_en/yareli_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/yareli_fr/regulators_fr.png",
-      "/all_img/yareli_en/regulators_en.png",
+      "all_img/yareli_fr/regulators_fr.png",
+      "all_img/yareli_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const yareli = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

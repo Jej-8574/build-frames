@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const mirage = {
   id: "mirage",
   name: "Mirage",
-  image: "/all_img/img_warframe/mirage.webp",
-  primeImage: "/all_img/img_warframe/mirage_prime.webp",
+  image: "all_img/img_warframe/mirage.webp",
+  primeImage: "all_img/img_warframe/mirage_prime.webp",
   description: "Description Mirage...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const mirage = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mirage_fr/mirage_fr.png",
-      "/all_img/mirage_en/mirage_en.png",
+      "all_img/mirage_fr/mirage_fr.png",
+      "all_img/mirage_en/mirage_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mirage_fr/regulators_fr.png",
-      "/all_img/mirage_en/regulators_en.png",
+      "all_img/mirage_fr/regulators_fr.png",
+      "all_img/mirage_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const mirage = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <header className="topbar">
       <Link to="/" className="logo">
-        <img src="/all_img/img_warframe/logo.webp" alt="Build Frame" />
+        <img src="all_img/img_warframe/logo.webp" alt="Build Frame" />
       </Link>
 
       <nav className="menu">

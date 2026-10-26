@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const revenant = {
   id: "revenant",
   name: "Revenant",
-  image: "/all_img/img_warframe/revenant.webp",
-  primeImage: "/all_img/img_warframe/revenant_prime.webp",
+  image: "all_img/img_warframe/revenant.webp",
+  primeImage: "all_img/img_warframe/revenant_prime.webp",
   description: "Description Revenant...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const revenant = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/revenant_fr/revenant_fr.png",
-      "/all_img/revenant_en/revenant_en.png",
+      "all_img/revenant_fr/revenant_fr.png",
+      "all_img/revenant_en/revenant_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/revenant_fr/regulators_fr.png",
-      "/all_img/revenant_en/regulators_en.png",
+      "all_img/revenant_fr/regulators_fr.png",
+      "all_img/revenant_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const revenant = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

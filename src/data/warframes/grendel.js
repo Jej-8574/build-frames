@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const grendel = {
   id: "grendel",
   name: "Grendel",
-  image: "/all_img/img_warframe/grendel.webp",
-  primeImage: "/all_img/img_warframe/grendel_prime.webp",
+  image: "all_img/img_warframe/grendel.webp",
+  primeImage: "all_img/img_warframe/grendel_prime.webp",
   description: "Description Grendel...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const grendel = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/grendel_fr/grendel_fr.png",
-      "/all_img/grendel_en/grendel_en.png",
+      "all_img/grendel_fr/grendel_fr.png",
+      "all_img/grendel_en/grendel_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/grendel_fr/regulators_fr.png",
-      "/all_img/grendel_en/regulators_en.png",
+      "all_img/grendel_fr/regulators_fr.png",
+      "all_img/grendel_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const grendel = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

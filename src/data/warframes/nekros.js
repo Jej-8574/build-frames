@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const nekros = {
   id: "nekros",
   name: "Nekros",
-  image: "/all_img/img_warframe/nekros.webp",
-  primeImage: "/all_img/img_warframe/nekros_prime.webp",
+  image: "all_img/img_warframe/nekros.webp",
+  primeImage: "all_img/img_warframe/nekros_prime.webp",
   description: "Description Nekros...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const nekros = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/nekros_fr/nekros_fr.png",
-      "/all_img/nekros_en/nekros_en.png",
+      "all_img/nekros_fr/nekros_fr.png",
+      "all_img/nekros_en/nekros_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/nekros_fr/regulators_fr.png",
-      "/all_img/nekros_en/regulators_en.png",
+      "all_img/nekros_fr/regulators_fr.png",
+      "all_img/nekros_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const nekros = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

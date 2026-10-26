@@ -3,8 +3,8 @@ import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 export const harrow = {
   id: "harrow",
   name: "Harrow",
-  image: "/all_img/img_warframe/harrow.webp",
-  primeImage: "/all_img/img_warframe/harrow_prime.webp",
+  image: "all_img/img_warframe/harrow.webp",
+  primeImage: "all_img/img_warframe/harrow_prime.webp",
   description: "Description Harrow...",
   strengths: ["..."],
   weaknesses: ["..."],
@@ -12,16 +12,16 @@ export const harrow = {
   builds: [
     makeBuild(
       "Général",
-      "/all_img/harrow_fr/harrow_fr.png",
-      "/all_img/harrow_en/harrow_en.png",
+      "all_img/harrow_fr/harrow_fr.png",
+      "all_img/harrow_en/harrow_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/harrow_fr/regulators_fr.png",
-      "/all_img/harrow_en/regulators_en.png",
+      "all_img/harrow_fr/regulators_fr.png",
+      "all_img/harrow_en/regulators_en.png",
     ),
   ],
 
@@ -33,13 +33,13 @@ export const harrow = {
   archonShards: [
     makeShard(
       "violet",
-      "/all_img/shards/violet.png",
+      "all_img/shards/violet.png",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "/all_img/shards/yellow.png",
+      "all_img/shards/yellow.png",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),
