@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const wukong = {
   id: "wukong",
   name: "Wukong",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/wukong.webp",
+  primeImage: "/all_img/img_warframe/wukong_prime.webp",
+  description: "Description Wukong...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/wukong_fr/wukong_fr.png",
+      "/all_img/wukong_en/wukong_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/wukong_fr/regulators_fr.png",
+      "/all_img/wukong_en/regulators_en.png",
     ),
   ],
 

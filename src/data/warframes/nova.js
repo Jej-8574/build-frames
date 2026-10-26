@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const nova = {
   id: "nova",
   name: "Nova",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/nova.webp",
+  primeImage: "/all_img/img_warframe/nova_prime.webp",
+  description: "Description Nova...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/nova_fr/nova_fr.png",
+      "/all_img/nova_en/nova_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/nova_fr/regulators_fr.png",
+      "/all_img/nova_en/regulators_en.png",
     ),
   ],
 

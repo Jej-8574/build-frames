@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const sevagoth = {
   id: "sevagoth",
   name: "Sevagoth",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/sevagoth.webp",
+  primeImage: "/all_img/img_warframe/sevagoth_prime.webp",
+  description: "Description Sevagoth...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/sevagoth_fr/sevagoth_fr.png",
+      "/all_img/sevagoth_en/sevagoth_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/sevagoth_fr/regulators_fr.png",
+      "/all_img/sevagoth_en/regulators_en.png",
     ),
   ],
 

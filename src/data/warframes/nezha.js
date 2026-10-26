@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const nezha = {
   id: "nezha",
   name: "Nezha",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/nezha.webp",
+  primeImage: "/all_img/img_warframe/nezha_prime.webp",
+  description: "Description Nezha...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/nezha_fr/nezha_fr.png",
+      "/all_img/nezha_en/nezha_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/nezha_fr/regulators_fr.png",
+      "/all_img/nezha_en/regulators_en.png",
     ),
   ],
 

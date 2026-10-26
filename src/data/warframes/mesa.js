@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const mesa = {
   id: "mesa",

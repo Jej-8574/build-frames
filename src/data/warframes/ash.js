@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const ash = {
   id: "ash",
   name: "Ash",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/ash.webp",
+  primeImage: "/all_img/img_warframe/ash_prime.webp",
+  description: "Description Ash...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/ash_fr/ash_fr.png",
+      "/all_img/ash_en/ash_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/ash_fr/regulators_fr.png",
+      "/all_img/ash_en/regulators_en.png",
     ),
   ],
 

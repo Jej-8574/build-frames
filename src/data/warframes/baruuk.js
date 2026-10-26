@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const baruuk = {
   id: "baruuk",
   name: "Baruuk",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/baruuk.webp",
+  primeImage: "/all_img/img_warframe/baruuk_prime.webp",
+  description: "Description Baruuk...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/baruuk_fr/baruuk_fr.png",
+      "/all_img/baruuk_en/baruuk_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/baruuk_fr/regulators_fr.png",
+      "/all_img/baruuk_en/regulators_en.png",
     ),
   ],
 

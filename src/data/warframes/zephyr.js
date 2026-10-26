@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const zephyr = {
   id: "zephyr",
   name: "Zephyr",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/zephyr.webp",
+  primeImage: "/all_img/img_warframe/zephyr_prime.webp",
+  description: "Description Zephyr...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/zephyr_fr/zephyr_fr.png",
+      "/all_img/zephyr_en/zephyr_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/zephyr_fr/regulators_fr.png",
+      "/all_img/zephyr_en/regulators_en.png",
     ),
   ],
 

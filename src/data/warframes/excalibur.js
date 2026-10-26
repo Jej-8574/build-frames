@@ -1,27 +1,27 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared";
+import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
 
 export const excalibur = {
   id: "excalibur",
   name: "Excalibur",
-  image: "/all_img/img_warframe/mesa.webp",
-  primeImage: "/all_img/img_warframe/mesa_prime.webp",
-  description: "Description Mesa...",
+  image: "/all_img/img_warframe/excalibur.webp",
+  primeImage: "/all_img/img_warframe/excalibur_prime.webp",
+  description: "Description Excalibur...",
   strengths: ["..."],
   weaknesses: ["..."],
 
   builds: [
     makeBuild(
       "Général",
-      "/all_img/mesa_fr/mesa_fr.png",
-      "/all_img/mesa_en/mesa_en.png",
+      "/all_img/excalibur_fr/excalibur_fr.png",
+      "/all_img/excalibur_en/excalibur_en.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "/all_img/mesa_fr/regulators_fr.png",
-      "/all_img/mesa_en/regulators_en.png",
+      "/all_img/excalibur_fr/regulators_fr.png",
+      "/all_img/excalibur_en/regulators_en.png",
     ),
   ],
 
