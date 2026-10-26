@@ -13,7 +13,7 @@ body {
 .app {
   min-height: 100vh;
   position: relative;
-  background-image: url("all_img/img_warframe/1142173.jpg");
+  background-image: url("/public/all_img/img_warframe/1142173.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
