@@ -13,7 +13,12 @@ export const mesa = {
     makeBuild(
       "Général",
       "all_img/mesa_fr/mesa_fr.png",
-      "all_img/mesa_en/mesa_en.png",
+      "all_img/mesa_en/mesa_en_endurance.png",
+    ),
+    makeBuild(
+      "Nokko",
+      "all_img/mesa_fr/mesa_fr.png",
+      "all_img/mesa_en/mesa_en_nokko.png",
     ),
   ],
 
@@ -21,7 +26,7 @@ export const mesa = {
     makeWeaponBuild(
       "Regulators",
       "all_img/mesa_fr/regulators_fr.png",
-      "all_img/mesa_en/regulators_en.png",
+      "all_img/mesa_en/mesa_en_weapon.png",
     ),
   ],
 
@@ -32,16 +37,34 @@ export const mesa = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/shards/violet.png",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+3 au nombre de cumuls max d'Effets de Statut Corrosifs.",
+      "+3 to the max number of Corrosive Status Effect stacks.",
     ),
     makeShard(
-      "yellow",
-      "all_img/shards/yellow.png",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
+    ),
+    makeShard(
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
+    ),
+    makeShard(
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
+    ),
+    makeShard(
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
     ),
   ],
 };

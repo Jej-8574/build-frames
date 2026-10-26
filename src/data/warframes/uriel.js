@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const uriel = {
   id: "uriel",
@@ -16,14 +16,6 @@ export const uriel = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/uriel_fr/regulators_fr.png",
-      "all_img/uriel_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -31,16 +23,34 @@ export const uriel = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/shards/violet.png",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+22.5% de Vitesse de Parcours.",
+      "+22.5% Parkour Speed.",
     ),
     makeShard(
       "yellow",
-      "all_img/shards/yellow.png",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+37.5% de Vitesse de Lancement.",
+      "+37.5% Casting Speed.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "15% de Durée de Pouvoir.",
+      "15% Power Duration.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "15% de Puissance de Pouvoir.",
+      "15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "15% de Puissancede Pouvoir.",
+      "15% Power Strength.",
     ),
   ],
 };

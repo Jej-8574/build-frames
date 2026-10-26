@@ -33,13 +33,13 @@ export const nidus = {
   archonShards: [
     makeShard(
       "violet",
-      "all_img/shards/violet.png",
+      "all_img/fragment_archon/fragment_violet.webp",
       "+37.5% de Dégâts Critiques de Mêlée...",
       "+37.5% Melee Critical Damage...",
     ),
     makeShard(
       "yellow",
-      "all_img/shards/yellow.png",
+      "all_img/fragment_archon/fragment_jaune.webp",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),

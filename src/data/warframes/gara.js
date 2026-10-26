@@ -19,9 +19,9 @@ export const gara = {
 
   weaponBuilds: [
     makeWeaponBuild(
-      "Regulators",
-      "all_img/gara_fr/regulators_fr.png",
-      "all_img/gara_en/regulators_en.png",
+      "Pique Cassante",
+      "all_img/gara_fr/gara_fr_weap.png",
+      "all_img/gara_en/gara_en_weap.png",
     ),
   ],
 
@@ -33,15 +33,33 @@ export const gara = {
   archonShards: [
     makeShard(
       "violet",
-      "all_img/shards/violet.png",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if Energy max > 500)",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if Energy max > 500)",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if Energy max > 500)",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if Energy max > 500)",
     ),
     makeShard(
       "yellow",
-      "all_img/shards/yellow.png",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+37.5% de Vitesse de Lancement.",
+      "+37.5% Casting Speed.",
     ),
   ],
 };
