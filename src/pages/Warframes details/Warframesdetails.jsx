@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { warframes } from "../Warframe/warframes";
+import { warframes } from "../../data/warframes";
 import "./Warframesdetails.css";
 
 function WarframesDetails() {

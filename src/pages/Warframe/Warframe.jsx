@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { warframes } from "./warframes";
+import { warframes } from "../../data/warframes";
 import "./Warframe.css";
 
 function Warframe() {
