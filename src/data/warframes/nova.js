@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const nova = {
   id: "nova",
@@ -11,17 +11,14 @@ export const nova = {
 
   builds: [
     makeBuild(
-      "Général",
-      "all_img/nova_fr/nova_fr.png",
-      "all_img/nova_en/nova_en.png",
+      "Double Augment",
+      "all_img/nova_fr/nova_fr_da.png",
+      "all_img/nova_en/nova_en_da.png",
     ),
-  ],
-
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/nova_fr/regulators_fr.png",
-      "all_img/nova_en/regulators_en.png",
+    makeBuild(
+      "Support",
+      "all_img/nova_fr/nova_fr_support.png",
+      "all_img/nova_en/nova_en_support.png",
     ),
   ],
 
@@ -32,14 +29,32 @@ export const nova = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/shards/violet.png",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Durée de Pouvoir.",
+      "+15% Power Duration",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Durée de Pouvoir.",
+      "+15% Power Duration",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Durée de Pouvoir.",
+      "+15% Power Duration",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength",
     ),
     makeShard(
       "yellow",
-      "all_img/shards/yellow.png",
+      "all_img/fragment_archon/fragment_jaune.webp",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
     ),
