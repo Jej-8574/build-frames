@@ -34,8 +34,26 @@ export const nezha = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "Les récupérations de Santé donnent +30% d'Énergie. Les récupérations d'Énergie donnent +30% de Santé.",
+      "Health pickups grant +30% Energy. Energy pickups grant +30% Health.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+3 au nombre de cumuls max d'Effets de Statut Corrosifs.",
+      "+3 to max stacks of Corrosive Status Effects.",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+37.5% de Vitesse de Lancement",
+      "+37.5% Casting Speed",
     ),
     makeShard(
       "yellow",

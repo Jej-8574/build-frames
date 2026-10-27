@@ -19,9 +19,9 @@ export const baruuk = {
 
   weaponBuilds: [
     makeWeaponBuild(
-      "Regulators",
-      "all_img/baruuk_fr/regulators_fr.png",
-      "all_img/baruuk_en/regulators_en.png",
+      "Vent du Desert",
+      "all_img/baruuk_fr/baruuk_fr_weap.png",
+      "all_img/baruuk_en/baruuk_en_weap.png",
     ),
   ],
 
@@ -34,14 +34,32 @@ export const baruuk = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
     ),
     makeShard(
       "yellow",
       "all_img/fragment_archon/fragment_jaune.webp",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+75% d'Efficacité des Orbes d'Énergie.",
+      "+75% Energy Orb Efficiency.",
     ),
   ],
 };

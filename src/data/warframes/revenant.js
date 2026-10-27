@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const revenant = {
   id: "revenant",
@@ -17,14 +17,6 @@ export const revenant = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/revenant_fr/regulators_fr.png",
-      "all_img/revenant_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -32,10 +24,28 @@ export const revenant = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
     ),
     makeShard(
       "yellow",

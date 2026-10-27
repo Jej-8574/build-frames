@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const voruna = {
   id: "voruna",
@@ -11,17 +11,14 @@ export const voruna = {
 
   builds: [
     makeBuild(
-      "Général",
-      "all_img/voruna_fr/voruna_fr.png",
-      "all_img/voruna_en/voruna_en.png",
+      "Slam",
+      "all_img/voruna_fr/voruna_fr_slam.png",
+      "all_img/voruna_en/voruna_en_slam.png",
     ),
-  ],
-
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/voruna_fr/regulators_fr.png",
-      "all_img/voruna_en/regulators_en.png",
+    makeBuild(
+      "Nuke",
+      "all_img/voruna_fr/voruna_fr_nuke.png",
+      "all_img/voruna_en/voruna_en.png",
     ),
   ],
 
@@ -34,14 +31,32 @@ export const voruna = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
     ),
     makeShard(
-      "yellow",
-      "all_img/fragment_archon/fragment_jaune.webp",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+3 au nombre de cumuls max d'Effets de Statut Corrosifs.",
+      "+3 to max stacks of Corrosive Status Effects.",
+    ),
+    makeShard(
+      "blue",
+      "all_img/fragment_archon/fragment_bleu.webp",
+      "+75 d'Énergie max.",
+      "+75 max Energy.",
     ),
   ],
 };

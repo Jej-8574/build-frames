@@ -15,13 +15,18 @@ export const sevagoth = {
       "all_img/sevagoth_fr/sevagoth_fr.png",
       "all_img/sevagoth_en/sevagoth_en.png",
     ),
+    makeBuild(
+      "Ombre de Sevagoth",
+      "all_img/sevagoth_fr/sevagoth_fr_spectre.png",
+      "all_img/sevagoth_en/sevagoth_en_spectre.png",
+    ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
-      "Regulators",
-      "all_img/sevagoth_fr/regulators_fr.png",
-      "all_img/sevagoth_en/regulators_en.png",
+      "Griffe de L'ombre",
+      "all_img/sevagoth_fr/sevagoth_fr_weap.png",
+      "all_img/sevagoth_en/sevagoth_en_weap.png",
     ),
   ],
 

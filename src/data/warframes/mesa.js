@@ -12,12 +12,12 @@ export const mesa = {
   builds: [
     makeBuild(
       "Général",
-      "all_img/mesa_fr/mesa_fr.png",
-      "all_img/mesa_en/mesa_en_endurance.png",
+      "all_img/mesa_fr/mesa_fr_general.png",
+      "all_img/mesa_en/mesa_en_general.png",
     ),
     makeBuild(
       "Nokko",
-      "all_img/mesa_fr/mesa_fr.png",
+      "all_img/mesa_fr/mesa_fr_nokko.png",
       "all_img/mesa_en/mesa_en_nokko.png",
     ),
   ],
@@ -25,7 +25,7 @@ export const mesa = {
   weaponBuilds: [
     makeWeaponBuild(
       "Regulators",
-      "all_img/mesa_fr/regulators_fr.png",
+      "all_img/mesa_fr/mesa_fr_weap.png",
       "all_img/mesa_en/mesa_en_weapon.png",
     ),
   ],

@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const grendel = {
   id: "grendel",
@@ -17,14 +17,6 @@ export const grendel = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/grendel_fr/regulators_fr.png",
-      "all_img/grendel_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -34,14 +26,32 @@ export const grendel = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "Les récupérations de Santé donnent +30% d'Énergie. Les récupérations d'Énergie donnent +30% de Santé.",
+      "Health pickups grant +30% Energy. Energy pickups grant +30% Health.",
     ),
     makeShard(
-      "yellow",
-      "all_img/fragment_archon/fragment_jaune.webp",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Durée de Pouvoir.",
+      "+15% Power Duration.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+45% de Dégâts sur les Effets de Statut Poison.",
+      "+45% Damage on Poison Status Effects.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+45% de Dégâts sur les Effets de Statut Poison.",
+      "+45% Damage on Poison Status Effects.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+45% de Dégâts sur les Effets de Statut Poison.",
+      "+45% Damage on Poison Status Effects.",
     ),
   ],
 };

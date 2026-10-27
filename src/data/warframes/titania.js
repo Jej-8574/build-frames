@@ -11,17 +11,32 @@ export const titania = {
 
   builds: [
     makeBuild(
-      "Général",
-      "all_img/titania_fr/titania_fr.png",
-      "all_img/titania_en/titania_en.png",
+      "Farm Plat",
+      "all_img/titania_fr/titania_fr_farm_plat.png",
+      "all_img/titania_en/titania_en_farmplat.png",
+    ),
+    makeBuild(
+      "Endurance",
+      "all_img/titania_fr/titania_fr_endurance.png",
+      "all_img/titania_en/titania_en_endurance.png",
+    ),
+    makeBuild(
+      "Anti-Boss",
+      "all_img/titania_fr/titania_fr_antiboss.png",
+      "all_img/titania_en/titania_en_antiboss.png",
     ),
   ],
 
   weaponBuilds: [
     makeWeaponBuild(
-      "Regulators",
-      "all_img/titania_fr/regulators_fr.png",
-      "all_img/titania_en/regulators_en.png",
+      "Dex Pixia",
+      "all_img/titania_fr/titania_fr_weap.png",
+      "all_img/titania_en/titania_en_weap.png",
+    ),
+    makeWeaponBuild(
+      "Diwata",
+      "all_img/titania_fr/titania_fr_cac.png",
+      "all_img/titania_en/titania_en_melee.png",
     ),
   ],
 
@@ -32,16 +47,34 @@ export const titania = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "+3 au nombre de cumuls max d'Effets de Statut Corrosifs.",
+      "+3 to max stacks of Corrosive Status.",
     ),
     makeShard(
       "yellow",
       "all_img/fragment_archon/fragment_jaune.webp",
-      "+37.5% de Vitesse de Lancement",
+      "+37.5% de Vitesse de Lancement.",
       "+37.5% Casting Speed",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+37.5% de Vitesse de Lancement.",
+      "+37.5% Casting Speed.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
     ),
   ],
 };

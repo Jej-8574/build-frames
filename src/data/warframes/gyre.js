@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const gyre = {
   id: "gyre",
@@ -17,14 +17,6 @@ export const gyre = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/gyre_fr/regulators_fr.png",
-      "all_img/gyre_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -34,8 +26,26 @@ export const gyre = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "Les récupérations de Santé donnent +30% d'Énergie. Les récupérations d'Énergie donnent +30% de Santé.",
+      "Health pickups grant +30% Energy. Energy pickups grant +30% Health.",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+15% de Dégâts de Pouvoirs sur les ennemis affectés par un Effet de Statut Électrique.",
+      "+15% Power Damage against enemies affected by an Electric Status Effect.",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+15% de Dégâts de Pouvoirs sur les ennemis affectés par un Effet de Statut Électrique.",
+      "+15% Power Damage against enemies affected by an Electric Status Effect.",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+15% de Dégâts de Pouvoirs sur les ennemis affectés par un Effet de Statut Électrique.",
+      "+15% Power Damage against enemies affected by an Electric Status Effect.",
     ),
     makeShard(
       "yellow",

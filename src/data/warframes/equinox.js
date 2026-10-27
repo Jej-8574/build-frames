@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const equinox = {
   id: "equinox",
@@ -17,14 +17,6 @@ export const equinox = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/equinox_fr/regulators_fr.png",
-      "all_img/equinox_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -34,14 +26,32 @@ export const equinox = {
     makeShard(
       "violet",
       "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
+    ),
+    makeShard(
+      "violet",
+      "all_img/fragment_archon/fragment_violet.webp",
+      "+37.5% de Dégâts Critiques de Mêlée (doublé si l'Énergie max > 500).",
+      "+37.5% Melee Critical Damage (doubled if max Energy > 500).",
     ),
     makeShard(
       "yellow",
       "all_img/fragment_archon/fragment_jaune.webp",
-      "+37.5% de Vitesse de Lancement",
+      "+37.5% de Vitesse de Lancement.",
       "+37.5% Casting Speed",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+37.5% de Vitesse de Lancement.",
+      "+37.5% Casting Speed.",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+22.5% de Vitesse de Parcours.",
+      "+22.5% Parkour Speed.",
     ),
   ],
 };

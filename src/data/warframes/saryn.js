@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const saryn = {
   id: "saryn",
@@ -16,15 +16,6 @@ export const saryn = {
       "all_img/saryn_en/saryn_en.png",
     ),
   ],
-
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/saryn_fr/regulators_fr.png",
-      "all_img/saryn_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -32,10 +23,28 @@ export const saryn = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "3 au nombre de cumuls max d'Effets de Statut Corrosifs.",
+      "3 max stacks of Corrosive Status Effects.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "45% de Dégâts sur les Effets de Statut Poison.",
+      "45% Damage on Poison Status Effects.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "45% de Dégâts sur les Effets de Statut Poison.",
+      "45% Damage on Poison Status Effects.",
+    ),
+    makeShard(
+      "green",
+      "all_img/fragment_archon/fragment_vert.webp",
+      "45% de Dégâts sur les Effets de Statut Poison.",
+      "45% Damage on Poison Status Effects.",
     ),
     makeShard(
       "yellow",

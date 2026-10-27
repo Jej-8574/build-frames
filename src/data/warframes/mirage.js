@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const mirage = {
   id: "mirage",
@@ -12,16 +12,18 @@ export const mirage = {
   builds: [
     makeBuild(
       "Général",
-      "all_img/mirage_fr/mirage_fr.png",
-      "all_img/mirage_en/mirage_en.png",
+      "all_img/mirage_fr/mirage_fr_endurance.png",
+      "all_img/mirage_en/mirage_en_endurance.png",
     ),
-  ],
-
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/mirage_fr/regulators_fr.png",
-      "all_img/mirage_en/regulators_en.png",
+    makeBuild(
+      "Sanctu",
+      "all_img/mirage_fr/mirage_fr_sanctu.png",
+      "all_img/mirage_en/mirage_en_sanctu.png",
+    ),
+    makeBuild(
+      "Général",
+      "all_img/mirage_fr/mirage_fr_general.png",
+      "all_img/mirage_en/mirage_en_general.png",
     ),
   ],
 
@@ -32,10 +34,28 @@ export const mirage = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Power Strength.",
     ),
     makeShard(
       "yellow",

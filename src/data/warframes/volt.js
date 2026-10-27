@@ -11,9 +11,14 @@ export const volt = {
 
   builds: [
     makeBuild(
-      "Général",
-      "all_img/volt_fr/volt_fr.png",
-      "all_img/volt_en/volt_en.png",
+      "Endurance",
+      "all_img/volt_fr/volt_fr_endurance.png",
+      "all_img/volt_en/volt_en_endurance.png",
+    ),
+    makeBuild(
+      "Mélée",
+      "all_img/volt_fr/volt_fr_melee.png",
+      "all_img/volt_en/volt_en_melee.png",
     ),
   ],
 
@@ -32,10 +37,28 @@ export const volt = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15 Puissance de Pouvoir.",
+      "+15 Ability Strength.",
     ),
     makeShard(
       "yellow",

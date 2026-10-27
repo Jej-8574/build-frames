@@ -33,6 +33,7 @@ import { loki } from "./loki";
 import { mag } from "./mag";
 import { mesa } from "./mesa";
 import { mirage } from "./mirage";
+import { narin } from "./narin";
 import { nekros } from "./nekros";
 import { nezha } from "./nezha";
 import { nidus } from "./nidus";
@@ -100,6 +101,7 @@ export const warframes = [
   mag,
   mesa,
   mirage,
+  narin,
   nekros,
   nezha,
   nidus,

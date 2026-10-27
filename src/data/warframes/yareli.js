@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const yareli = {
   id: "yareli",
@@ -17,14 +17,6 @@ export const yareli = {
     ),
   ],
 
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/yareli_fr/regulators_fr.png",
-      "all_img/yareli_en/regulators_en.png",
-    ),
-  ],
-
   helminth: {
     fr: "Texte FR...",
     en: "Text EN...",
@@ -32,16 +24,34 @@ export const yareli = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
+    ),
+    makeShard(
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
+    ),
+    makeShard(
+      "orange",
+      "all_img/fragment_archon/fragment_orange.webp",
+      "1.5% de Chance de critique Secondaire par ennemi tué sous Effet Feu (Max 50%).",
+      "1.5% Secondary Crit Chance per enemy killed under Fire Effect (Max 50%).",
     ),
     makeShard(
       "yellow",
       "all_img/fragment_archon/fragment_jaune.webp",
       "+37.5% de Vitesse de Lancement",
       "+37.5% Casting Speed",
+    ),
+    makeShard(
+      "yellow",
+      "all_img/fragment_archon/fragment_jaune.webp",
+      "+22.5% de Vitesse de Parkour",
+      "+22.5% Parkour Speed",
     ),
   ],
 };

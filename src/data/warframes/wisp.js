@@ -1,4 +1,4 @@
-import { makeBuild, makeWeaponBuild, makeShard } from "./shared.js";
+import { makeBuild, makeShard } from "./shared.js";
 
 export const wisp = {
   id: "wisp",
@@ -12,16 +12,13 @@ export const wisp = {
   builds: [
     makeBuild(
       "Général",
-      "all_img/wisp_fr/wisp_fr.png",
-      "all_img/wisp_en/wisp_en.png",
+      "all_img/wisp_fr/wisp_fr_general.png",
+      "all_img/wisp_en/wisp_en_general.png",
     ),
-  ],
-
-  weaponBuilds: [
-    makeWeaponBuild(
-      "Regulators",
-      "all_img/wisp_fr/regulators_fr.png",
-      "all_img/wisp_en/regulators_en.png",
+    makeBuild(
+      "Arbitrage",
+      "all_img/wisp_fr/wisp_fr_arbi.png",
+      "all_img/wisp_en/wisp_en_arbi.png",
     ),
   ],
 
@@ -32,16 +29,34 @@ export const wisp = {
 
   archonShards: [
     makeShard(
-      "violet",
-      "all_img/fragment_archon/fragment_violet.webp",
-      "+37.5% de Dégâts Critiques de Mêlée...",
-      "+37.5% Melee Critical Damage...",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Ability Strength.",
     ),
     makeShard(
-      "yellow",
-      "all_img/fragment_archon/fragment_jaune.webp",
-      "+37.5% de Vitesse de Lancement",
-      "+37.5% Casting Speed",
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Ability Strength.",
+    ),
+    makeShard(
+      "red",
+      "all_img/fragment_archon/fragment_rouge.webp",
+      "+15% de Puissance de Pouvoir.",
+      "+15% Ability Strength.",
     ),
   ],
 };
